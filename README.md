@@ -25,9 +25,9 @@ that `apm` was installed, run `apm -v`.
 
 1. Clone the CodeClippy plugin.
 2. Navigate inside the CodeClippy directory and run `apm link`. This will create
-a symbolic link to you `~/.atom/packages` folder.
+a symbolic link to your `~/.atom/packages` folder.
 3. Reload the window. You can do this by pressing `CMD-Shift-P` and entering
-`Window: Reload`. You will do this every time you make changes to the package.
+`Window: Reload`. You will need to do this every time you make changes to the package.
 
 To activate the plugin, press `CMD-Shift-H`. This will open up a right side panel.
 The panel is resizable. To look up StackOverflow threads, enter a query in the
