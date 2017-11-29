@@ -21,13 +21,19 @@ to download the latest version.
 To do so, navigate to `Atom > Install Shell Commands` in the application menu. To check
 that `apm` was installed, run `apm -v`.
 
+3. Please have `npm`, the JavaScript package manager, installed to your command line.
+See instructions for various ways of installing [here](https://www.npmjs.com/get-npm?utm_source=house&utm_medium=homepage&utm_campaign=free%20orgs&utm_term=Install%20npm).
+
 ### Installing
 
 1. Clone the CodeClippy plugin.
 2. Navigate inside the CodeClippy directory and run `apm link`. This will create
 a symbolic link to your `~/.atom/packages` folder.
-3. Reload the window. You can do this by pressing `CMD-Shift-P` and entering
-`Window: Reload`. You will need to do this every time you make changes to the package.
+3. From inside the CodeClippy directory, run `npm install` to install the necessary
+node modules.
+4. Return to the Atom editor and reload the window. You can do this by pressing
+`CMD-Shift-P` and entering `Window: Reload`. You will need to do this every time
+you make changes to the package.
 
 To activate the plugin, press `CMD-Shift-H`. This will open up a right side panel.
 The panel is resizable. To look up StackOverflow threads, enter a query in the
