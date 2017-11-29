@@ -9,7 +9,7 @@ of indexed StackOverflow questions and answers, allowing the user to interact wi
 ## Getting Started
 
 This section contains instructions for manually installing CodeClippy locally.
-After initial alpha test, CodeClippy will be made public hosted on Atom's package
+After the initial alpha test, CodeClippy will be made public on Atom's package
 repository.
 
 ### Prerequisites
@@ -37,9 +37,6 @@ similarly.
 
 ## Running tests
 
-This section will eventually be updated with instructions for running CodeClippy's
-test suite on your local system.
-
 ## Built With
 
 * [Atom](https://atom.io/docs)
@@ -57,6 +54,6 @@ There you will soon find instructions for getting set up to develop locally.
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
