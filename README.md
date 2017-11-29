@@ -8,12 +8,32 @@ of indexed StackOverflow questions and answers, allowing the user to interact wi
 
 ## Getting Started
 
-This section will eventually be updated with instructions for using CodeClippy.
-After initial alpha test, CodeClippy will be hosted on Atom's package repository.
+This section contains instructions for manually installing CodeClippy locally.
+After initial alpha test, CodeClippy will be made public hosted on Atom's package
+repository.
 
 ### Prerequisites
 
+1. Please have the Atom editor installed locally. Visit [Atom.io](https://atom.io/)
+to download the latest version.
+
+2. Please have the `apm`, the Atom Package Manager, installed to your command line.
+To do so, navigate to `Atom > Install Shell Commands` in the application menu. To check
+that `apm` was installed, run `apm -v`.
+
 ### Installing
+
+1. Clone the CodeClippy plugin.
+2. Navigate inside the CodeClippy directory and run `apm link`. This will create
+a symbolic link to you `~/.atom/packages` folder.
+3. Reload the window. You can do this by pressing `CMD-Shift-P` and entering
+`Window: Reload`. You will do this every time you make changes to the package.
+
+To activate the plugin, press `CMD-Shift-H`. This will open up a right side panel.
+The panel is resizable. To look up StackOverflow threads, enter a query in the
+search bar and press enter. You can expand questions by clicking the `Expand` button
+on the bottom right of each question. You can expand and collapse comments and answers
+similarly.
 
 ## Running tests
 
