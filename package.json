@@ -1,0 +1,20 @@
+{
+  "name": "CodeClippy",
+  "main": "./lib/code-clippy-plugin",
+  "version": "0.0.0",
+  "description": "Write code faster. CodeClippy helps you answer your development questions without leaving the editor.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "code-clippy-plugin:toggle"
+  },
+  "repository": "https://github.com/SolutionLoft/CodeClippy-Atom.git",
+  "license": "Apache-2.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.12.7",
+    "jquery": "^3.2.1",
+    "request": "^2.73.0"
+  }
+}

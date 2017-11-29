@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "cmd-shift-h": "code-clippy-plugin:toggle"
+  }
+}

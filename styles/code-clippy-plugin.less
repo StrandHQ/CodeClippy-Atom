@@ -1,0 +1,113 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import (css) "semantic";
+
+.atom-plugin {
+  width: 768px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.resize-handle {
+  position: absolute;
+  width: 5px;
+  left: -5px;
+  cursor: col-resize;
+  z-index: 13;
+  top: 0;
+  bottom: 0;
+}
+
+.ui.fluid.card {
+  background-color: rgb(40, 44, 52) !important;
+  box-shadow: none !important;
+}
+
+.loading-spinner-large {
+  margin-top: 20px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.ui.right.label {
+  background-color: transparent;
+  color: rgb(157, 165, 180);
+}
+
+.score {
+  min-width: 15px;
+  display: inline-block;
+}
+
+.question-body-full {
+	max-height: 100%;
+	overflow-x: scroll;
+}
+
+.question-body-preview {
+	max-height: 100px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+.question-expand {
+	margin-top: -15px;
+	padding: 5px;
+	text-align: right;
+}
+
+.question-expand a {
+  color: #9da5b4 !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+.comments-column {
+  padding-top: 25px;
+  padding-left: 0 !important;
+}
+
+.comment {
+  padding-left: 5px;
+  background-color: #1b1d23;
+  border-left: 3px solid #353b45;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.answer-column {
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.toggle {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: rgb(157, 165, 180);
+  display: block;
+}
+
+.toggle:hover {
+  font-weight: bold;
+	color: rgb(157, 165, 180);
+}
+
+blockquote {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #FFF8DC;
+  color: black;
+	border-left: 2px solid #ffeb8e;
+}
+
+pre {
+	padding: 5px;
+	width: auto;
+	background-color: #eff0f1;
+	overflow-x: scroll;
+}

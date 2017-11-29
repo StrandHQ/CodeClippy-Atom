@@ -1,0 +1,21 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle CodeClippy",
+        "command": "code-clippy-plugin:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "View",
+      "submenu": [
+        {
+          "label": "Toggle CodeClippy",
+          "command": "code-clippy-plugin:toggle"
+        }
+      ]
+    }
+  ]
+}
