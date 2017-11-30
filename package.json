@@ -15,6 +15,7 @@
   "dependencies": {
     "etch": "^0.12.7",
     "jquery": "^3.2.1",
+    "moment": "^2.19.3",
     "request": "^2.73.0"
   }
 }
