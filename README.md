@@ -1,9 +1,9 @@
 # CodeClippy
 
-Our mission is to make it easy for developers to find and reuse code. CodeClippy
+Our mission is to make it easy for developers to write high quality code. CodeClippy
 is an Atom plugin that aims to act as a gateway for enabling this vision.
 
-Initially, CodeClippy's goal is to provide access to SolutionLoft's querying engine
+Initially, CodeClippy will provide access to SolutionLoft's querying engine
 of indexed StackOverflow questions and answers, allowing the user to interact with StackOverflow Q/A without leaving the comfort of his or her editor.
 
 ## Getting Started
@@ -17,7 +17,7 @@ repository.
 1. Please have the Atom editor installed locally. Visit [Atom.io](https://atom.io/)
 to download the latest version.
 
-2. Please have the `apm`, the Atom Package Manager, installed to your command line.
+2. Please have `apm`, the Atom Package Manager, installed to your command line.
 To do so, navigate to `Atom > Install Shell Commands` in the application menu. To check
 that `apm` was installed, run `apm -v`.
 
