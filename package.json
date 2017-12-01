@@ -1,7 +1,7 @@
 {
   "name": "CodeClippy",
   "main": "./lib/code-clippy-plugin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Write code faster. CodeClippy helps you answer your development questions without leaving the editor.",
   "keywords": [],
   "activationCommands": {
